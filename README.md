@@ -1,7 +1,7 @@
-Simple C# calendar application
+# Simple C# calendar application
 
 Created by:
-Tomasz Filipek
-Maciej Łuczka
-Marcin Kopytek
-Arkadiusz Walkowiak
+- Tomasz Filipek
+- Maciej Łuczka
+- Marcin Kopytek
+- Arkadiusz Walkowiak
