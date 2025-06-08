@@ -7,4 +7,4 @@ Created by:
 - Arkadiusz Walkowiak
 
 ## Requirements:
-Access to SQL databases, some somple is in ./sql directory.
+Access to SQL database (we have usead Xampp), some sample of db is in ./sql directory.
