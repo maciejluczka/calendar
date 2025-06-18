@@ -47,6 +47,8 @@
             this.RegisterPass = new System.Windows.Forms.TextBox();
             this.RegisterLogin = new System.Windows.Forms.TextBox();
             this.button2 = new System.Windows.Forms.Button();
+            this.RegisterGroup = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // LoginBtn
@@ -239,7 +241,7 @@
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
-            this.button2.Location = new System.Drawing.Point(706, 449);
+            this.button2.Location = new System.Drawing.Point(708, 511);
             this.button2.Name = "button2";
             this.button2.Padding = new System.Windows.Forms.Padding(5);
             this.button2.Size = new System.Drawing.Size(105, 45);
@@ -248,12 +250,34 @@
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click_1);
             // 
+            // RegisterGroup
+            // 
+            this.RegisterGroup.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
+            this.RegisterGroup.Location = new System.Drawing.Point(633, 467);
+            this.RegisterGroup.Name = "RegisterGroup";
+            this.RegisterGroup.PasswordChar = '*';
+            this.RegisterGroup.Size = new System.Drawing.Size(250, 27);
+            this.RegisterGroup.TabIndex = 24;
+            this.RegisterGroup.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
+            this.label3.Location = new System.Drawing.Point(721, 431);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(72, 26);
+            this.label3.TabIndex = 25;
+            this.label3.Text = "Grupa";
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSlateGray;
             this.ClientSize = new System.Drawing.Size(984, 681);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.RegisterGroup);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.RegisterPass);
@@ -306,5 +330,7 @@
         private System.Windows.Forms.TextBox RegisterPass;
         private System.Windows.Forms.TextBox RegisterLogin;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.TextBox RegisterGroup;
+        private System.Windows.Forms.Label label3;
     }
 }

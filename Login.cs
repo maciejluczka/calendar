@@ -79,7 +79,10 @@ namespace Calendar
                 bool userExists = database.UserExists(RegisterLogin.Text);
                 if (!userExists)
                 {
-                    database.Register(RegisterLogin.Text, RegisterPass.Text);
+                    string group = RegisterGroup.Text;
+                    if (group == "")
+                        group = "1";
+                    database.Register(RegisterLogin.Text, RegisterPass.Text, group);
                     RegisterAlert.Text = "Pomyślnie zajerestrowano";
                 }
                 else
